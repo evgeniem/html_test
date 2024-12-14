@@ -7,38 +7,59 @@ body, html{
     height: 100%;
 }
 img{
-    width: 200px;
+    width: 300px;
+    height: 200px;
 }
+.img_pages{
+    width: 800px;
+    height: 500px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 24px;
+}
+.header{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+}
+
 #header1{
     font-size: 40px;
 }
-.header{
-    font-size: 25px;
-    font-weight: normal;
-    text-align: center;
-}
 #div_h1{
     background-color: aqua;
-    margin: 0px 0px 25px 0px;
+    margin-bottom: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #div_h2{
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: rgb(123, 105, 235);
 }
 table{
     margin: auto;
+    border-spacing: 25px;
 }
-.div_table{
-    margin: 10px 35px;
-    text-align: center;
-    width: 200px;
+td{
+    width: 300px;
+    height: 320px;
+    padding: 15px;
 }
-#div_table2{
-    padding: 10px;
-    background-color: white;
-}
-#div_table3{
-    padding: 10px;
+.tdw{
     background-color: white;
 }
